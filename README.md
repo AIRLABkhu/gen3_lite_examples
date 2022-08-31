@@ -1,6 +1,7 @@
 # Kinova Gen3 Lite MoveIT Examples
 
 
+
 ### Setup
 
 * OS: Ubuntu 18.04 
@@ -55,12 +56,11 @@ These are the instructions to run in a terminal to create the workspace, clone t
 roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```
 
-2. To start pick and place control run:
+2. To start Simple Moving control run:
 ```sh
 roslaunch pick_place_python run_pick_place.launch
 ```
-
-2. To start pick and place control run:
+or
 ```sh
 roslaunch pick_place_python run_pick_place.launch
 ```
