@@ -58,29 +58,27 @@ roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 
 2. To start Simple Moving control run:
 ```sh
-roslaunch pick_place_python run_pick_place.launch
+roslaunch gen3_lite_examples moveit_example.launch
 ```
 or
 ```sh
-roslaunch pick_place_python run_pick_place.launch
+roslaunch gen3_lite_examples moveit_example_cpp.launch
 ```
 
-2. To start pick and place control run:
+3. To start pick and place(tower building) control run:
 ```sh
-roslaunch pick_place_python run_pick_place.launch
+roslaunch gen3_lite_examples p_n_p.launch
+```
+or
+```sh
+roslaunch gen3_lite_examples p_n_p_cpp.launch
 ```
 
-2. To start pick and place control run:
+4. To start pick and place(moving the bar) control run:
 ```sh
-roslaunch pick_place_python run_pick_place.launch
+roslaunch gen3_lite_examples p_n_p2.launch
 ```
-
-2. To start pick and place control run:
+or
 ```sh
-roslaunch pick_place_python run_pick_place.launch
-```
-
-2. To start pick and place control run:
-```sh
-roslaunch pick_place_python run_pick_place.launch
+roslaunch gen3_lite_examples p_n_p2_cpp.launch
 ```
