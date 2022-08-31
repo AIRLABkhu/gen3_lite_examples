@@ -68,7 +68,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ```sh
 roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```
-then you will see rviz as below
+then you will see rviz as below. 
 Click File > Open Config
 ![20220831_123301](https://user-images.githubusercontent.com/75155964/187586935-f7c4f8ce-1ad4-45dc-be82-0c5d9887967d.png)
 
