@@ -51,8 +51,15 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 ## Description of Scripts 
 * simple_moveit_example
+1. Planning to a Pose goal
+2. Planning by controlling joint state
+3. Draw Circle
+4. Draw Rectangle
+5. Draw A 
 * p_n_p
+Tower Building
 * p_n_p2
+Moving the bar
 
 
 ## Usage
