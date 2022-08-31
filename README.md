@@ -53,11 +53,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 * simple_moveit_example
 * p_n_p
 * p_n_p2
-
-<p align="center">
-  <img src="./demo.gif" alt="gen3_lite rviz demo">
-</p>
-
+https://github.com/dabarov/moveit-pick-place-python/blob/main/demo.gif
 ## Usage
 
 1. To start simulation run:
