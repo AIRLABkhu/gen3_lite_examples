@@ -52,9 +52,35 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 1. To start simulation run:
 ```sh
-roslaunch pick_place_python spawn_gen3_lite.launch
+roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```
 
 2. To start pick and place control run:
 ```sh
 roslaunch pick_place_python run_pick_place.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
+```
