@@ -2,6 +2,7 @@
 
 This Package covers Robot Manipulation part in Robot Programming Lecture.
 
+Note that: Even thouth there are two versions of scripts (C++,Python), you must use C++ in Lecture (Python is not permitted)
 ### Setup
 
 * OS: Ubuntu 18.04 
