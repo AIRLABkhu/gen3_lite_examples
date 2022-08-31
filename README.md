@@ -22,6 +22,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
         git clone https://github.com/Kinovarobotics/ros_kortex.git
         git clone https://github.com/AIRLABkhu/gen3_lite_examples.git
         cd ../
+        source /opt/ros/melodic/setup.bash
         rosdep install --from-paths src --ignore-src -y
         catkin_make
         source devel/setup.bash
