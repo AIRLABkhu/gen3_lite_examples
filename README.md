@@ -53,7 +53,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 * simple_moveit_example
 * p_n_p
 * p_n_p2
-![demo](https://user-images.githubusercontent.com/75155964/187585802-3fcef2c9-e57b-494f-bef4-edf4e48ea105.gif)
+
 
 ## Usage
 
