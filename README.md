@@ -51,7 +51,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 │   └── p_n_p2.launch
 │   └── p_n_p2_cpp.launch
 └── scripts
-     └── mave_it
+     └── move_it
          └── simple_moveit_example.py
          └── simple_moveit_example.cpp
          └── p_n_p.py
