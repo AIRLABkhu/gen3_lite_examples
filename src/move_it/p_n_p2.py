@@ -11,13 +11,18 @@ from shape_msgs.msg import SolidPrimitive
 
 from tf.transformations import quaternion_from_euler
 
+# setting frame_id of each object
 FRAME_ID = 'base_link'
 (X, Y, Z, W) = (0, 1, 2, 3)
+
 OPEN = 0.9
 CLOSE = 0.15
 OBJECT_POSITIONS = {'target_1': [0.05, 0.35, 0.3]}
+
 PICK_ORIENTATION_EULER = [-math.pi / 2, 0, 0]
 PLACE_ORIENTATION_EULER = [-math.pi / 2, 0, -math.pi / 2]
+
+# from this module, you can communicate with rviz (adding object in rviz or removing)
 SCENE = moveit_commander.PlanningSceneInterface()
 
 
@@ -42,6 +47,9 @@ def create_collision_object(id, dimensions, pose):
 
 
 def add_collision_objects():
+    #dimension: size
+    #pose: x,y,z 
+    # default w is 1.0
     floor_limit = create_collision_object(id='floor_limit',
                                           dimensions=[10, 10, 0.2],
                                           pose=[0, 0, -0.1])
