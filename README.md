@@ -105,27 +105,28 @@ Click "Close without Saving" then finally you will see the image as below.
 
 2. To start Simple Moving control run:
 ```sh
-roslaunch gen3_lite_examples moveit_example.launch
+roslaunch gen3_lite_examples moveit_example_cpp.launch
 ```
 or
 ```sh
-roslaunch gen3_lite_examples moveit_example_cpp.launch
+roslaunch gen3_lite_examples moveit_example.launch
 ```
+
 
 3. To start pick and place(tower building) control run:
 ```sh
-roslaunch gen3_lite_examples p_n_p.launch
+roslaunch gen3_lite_examples p_n_p_cpp.launch
 ```
 or
 ```sh
-roslaunch gen3_lite_examples p_n_p_cpp.launch
+roslaunch gen3_lite_examples p_n_p.launch
 ```
 
 4. To start pick and place(moving the bar) control run:
 ```sh
-roslaunch gen3_lite_examples p_n_p2.launch
+roslaunch gen3_lite_examples p_n_p2_cpp.launch
 ```
 or
 ```sh
-roslaunch gen3_lite_examples p_n_p2_cpp.launch
+roslaunch gen3_lite_examples p_n_p2.launch
 ```
