@@ -76,6 +76,8 @@ Click File > Open Config
 Click moveit.rviz in move_it_config (move to catkin_workspace > src > ros_kortex > kortex_move_it_config > gen3_lite_gen3_lite_2f_move_it_confing > launch)
 ![20220831_123341](https://user-images.githubusercontent.com/75155964/187586943-54bc83af-0b2a-4844-bd66-ccb62c9876bd.png)
 
+Click "Close without Saving" then finally you will see the image as below.
+![20220831_123943](https://user-images.githubusercontent.com/75155964/187587566-1d1892cf-9a00-42cb-be2b-e6910665e61e.png)
 
 
 2. To start Simple Moving control run:
