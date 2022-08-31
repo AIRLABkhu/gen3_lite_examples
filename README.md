@@ -25,3 +25,25 @@ These are the instructions to run in a terminal to create the workspace, clone t
         catkin_make
         source devel/setup.bash
 
+## Structure of package
+```sh
+.
+├── CMakeLists.txt
+├── package.xml
+├── launch
+│   ├── run_pick_place.launch
+│   └── spawn_gen3_lite.launch
+└── scripts
+    └── main.py
+```
+
+## Usage
+
+1. To start simulation run:
+```sh
+roslaunch pick_place_python spawn_gen3_lite.launch
+```
+
+2. To start pick and place control run:
+```sh
+roslaunch pick_place_python run_pick_place.launch
