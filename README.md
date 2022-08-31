@@ -52,9 +52,15 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 ## Troubleshooting
 To run gazebo stably in VMWare, you need to turn-off "Accelerate 3D graphics"
-1. Click Edit virtual Machine settings.
+* Click Edit virtual Machine settings.
 ![image](https://user-images.githubusercontent.com/75155964/187588472-4dd6e743-fcb9-4fdc-9c15-f3c2278c4d46.png)
-2.
+
+* Click Display Option
+![image](https://user-images.githubusercontent.com/75155964/187588574-50c62ed8-5089-49a0-b157-86a39ca4182a.png)
+
+* Click and turn-off Accelerate 3D graphics
+![image](https://user-images.githubusercontent.com/75155964/187588616-3432ee37-0c8e-4522-bf6b-19ea46126a07.png)
+
 
 ## Description of Scripts 
 * simple_moveit_example
