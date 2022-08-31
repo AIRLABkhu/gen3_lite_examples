@@ -77,6 +77,8 @@ These are the instructions to run in a terminal to create the workspace, clone t
 5. Draw A 
 * p_n_p
 1. Tower Building
+![image](https://user-images.githubusercontent.com/75155964/187598078-cb3abf46-45d4-4b64-b363-5288d1da22c5.png)
+
 * p_n_p2
 1. Moving the bar
 
