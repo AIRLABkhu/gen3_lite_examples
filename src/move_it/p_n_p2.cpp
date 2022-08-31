@@ -81,18 +81,26 @@ void  go_to_joint_state
   move_group_interface.execute(my_plan);
 }
 
+geometry_msgs::Pose list_to_pose(double x,double y,double z,double roll,double pitch,double yaw) {
+
+geometry_msgs::Pose target_pose;
+tf2::Quaternion orientation;
+orientation.setRPY(roll,pitch, yaw);
+target_pose.orientation= tf2::toMsg(orientation);
+target_pose.position.x=x;
+target_pose.position.y=y;
+target_pose.position.z=z;
+
+return target_pose;
+}
+
 void pick(moveit::planning_interface::MoveGroupInterface& move_group,
 moveit::planning_interface::MoveGroupInterface& gripper)
 {
 
 
 geometry_msgs::Pose target_pose;
-tf2::Quaternion orientation;
-orientation.setRPY(-M_PI / 2, 0, 0);
-target_pose.orientation= tf2::toMsg(orientation);
-target_pose.position.x=0.05;
-target_pose.position.y=0.35-0.1;
-target_pose.position.z=0.3;
+target_pose=list_to_pose(0.05,0.35-0.1,0.3,-M_PI/2,0,0);
 
 go_to_pose_goal(move_group,target_pose);
 go_to_joint_state(gripper,0.16);
@@ -109,14 +117,8 @@ moveit::planning_interface::MoveGroupInterface& gripper)
 {
 
 geometry_msgs::Pose target_pose;
-tf2::Quaternion orientation;
-orientation.setRPY(-M_PI / 2, 0, -M_PI / 2);
-target_pose.orientation= tf2::toMsg(orientation);
-target_pose.position.x=0.35;
-target_pose.position.y=0.05;
-target_pose.position.z=0.3;
-
-go_to_pose_goal(move_group,target_pose);
+target_pose=list_to_pose(0.35,0.05,0.3,-M_PI/2,0,-M_PI / 2);
+  
 go_to_pose_goal(move_group,target_pose);
 move_group.detachObject("object");
 
