@@ -81,6 +81,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 * p_n_p2
 1. Moving the bar
+![image](https://user-images.githubusercontent.com/75155964/187598223-d2fe9947-7697-481f-83ad-6a14d32b1208.png)
 
 
 ## Usage
