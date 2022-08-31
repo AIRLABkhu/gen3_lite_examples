@@ -1,6 +1,6 @@
 # Kinova Gen3 Lite MoveIT Examples
 
-
+This Package covers Robot Manipulation part in Robot Programming Lecture.
 
 ### Setup
 
@@ -26,7 +26,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
         catkin_make
         source devel/setup.bash
 
-## Structure of package
+## Structure of package of gen3_lite_examples
 ```sh
 .
 ├── CMakeLists.txt
@@ -49,6 +49,10 @@ These are the instructions to run in a terminal to create the workspace, clone t
          └── p_n_p2.cpp
 ```
 
+## Scripts 
+* simple_moveit_example
+In this script, you will learn
+1. 
 ## Usage
 
 1. To start simulation run:
