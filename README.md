@@ -68,6 +68,15 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ```sh
 roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```
+then you will see rviz as below
+Click File > Open Config
+![20220831_123301](https://user-images.githubusercontent.com/75155964/187586935-f7c4f8ce-1ad4-45dc-be82-0c5d9887967d.png)
+
+
+Click moveit.rviz in move_it_config (move to catkin_workspace > src > ros_kortex > kortex_move_it_config > gen3_lite_gen3_lite_2f_move_it_confing > launch)
+![20220831_123341](https://user-images.githubusercontent.com/75155964/187586943-54bc83af-0b2a-4844-bd66-ccb62c9876bd.png)
+
+
 
 2. To start Simple Moving control run:
 ```sh
