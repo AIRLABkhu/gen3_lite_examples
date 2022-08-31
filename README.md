@@ -4,8 +4,8 @@ ROS Kortex is the official ROS package to interact with Kortex and its related p
 
 ### Setup
 
-OS: Ubuntu 18.04 
-ROS: Melodic
+* OS: Ubuntu 18.04 
+* ROS: Melodic
 
 
 ### Build
