@@ -51,11 +51,20 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ```
 
 ## Troubleshooting
-To run gazebo stably in VMWare, you need to turn-off "Accelerate 3D graphics"
+###To run gazebo stably in VMWare, you need to turn-off "Accelerate 3D graphics"
 * Open VMWare and Click your workspace.
 * Click Edit virtual Machine settings.
 * Click Display Option
 * Click and turn-off Accelerate 3D graphics
+
+### make gen3_lite_examples scripts executable
+        cd catkin_workspace/src/gen3_lite_examples/src/move_it
+        chmod +x p_n_p2.cpp
+        chmod +x p_n_p2.py
+        chmod +x p_n_p.cpp
+        chmod +x p_n_p.py
+        chmod +x simple_moveit_example.cpp
+        chmod +x simple_moveit_example.py
 
 
 ## Description of Scripts 
