@@ -1,4 +1,4 @@
-# Kinova Gen3 Lite MoveIT Examples
+# Kinova Gen3 Lite with MoveIT !! 
 
 This Package covers Robot Manipulation part in Robot Programming Lecture.
 
