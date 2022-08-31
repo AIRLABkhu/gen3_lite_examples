@@ -75,10 +75,12 @@ These are the instructions to run in a terminal to create the workspace, clone t
 3. Draw Circle
 4. Draw Rectangle
 5. Draw A 
-* p_n_p : Tower Building
+* p_n_p 
+Tower Building
 ![image](https://user-images.githubusercontent.com/75155964/187598078-cb3abf46-45d4-4b64-b363-5288d1da22c5.png)
 
-* p_n_p2 : Moving the bar
+* p_n_p2
+Moving the bar
 ![image](https://user-images.githubusercontent.com/75155964/187598223-d2fe9947-7697-481f-83ad-6a14d32b1208.png)
 
 
