@@ -57,9 +57,9 @@ These are the instructions to run in a terminal to create the workspace, clone t
 4. Draw Rectangle
 5. Draw A 
 * p_n_p
-Tower Building
+1. Tower Building
 * p_n_p2
-Moving the bar
+1. Moving the bar
 
 
 ## Usage
