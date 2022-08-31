@@ -31,10 +31,21 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ├── CMakeLists.txt
 ├── package.xml
 ├── launch
-│   ├── run_pick_place.launch
-│   └── spawn_gen3_lite.launch
+│   ├── gen3_lite_gazebo.launch
+│   └── moveit_example.launch
+│   └── moveit_example_cpp.launch
+│   └── p_n_p.launch
+│   └── p_n_p_cpp.launch
+│   └── p_n_p2.launch
+│   └── p_n_p2_cpp.launch
 └── scripts
-    └── main.py
+     └── mave_it
+         └── simple_moveit_example.py
+         └── simple_moveit_example.cpp
+         └── p_n_p.py
+         └── p_n_p.cpp
+         └── p_n_p2.py
+         └── p_n_p2.cpp
 ```
 
 ## Usage
