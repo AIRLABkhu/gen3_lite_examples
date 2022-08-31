@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-# We use MoveIT::Grasping
+# We use MoveIT::Grasping for this tutorial
 
 import sys
 import time
