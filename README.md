@@ -50,6 +50,12 @@ These are the instructions to run in a terminal to create the workspace, clone t
          └── p_n_p2.cpp
 ```
 
+## Troubleshooting
+To run gazebo stably in VMWare, you need to turn-off "Accelerate 3D graphics"
+1. Click Edit virtual Machine settings.
+![image](https://user-images.githubusercontent.com/75155964/187588472-4dd6e743-fcb9-4fdc-9c15-f3c2278c4d46.png)
+2.
+
 ## Description of Scripts 
 * simple_moveit_example
 1. Planning to a Pose goal
