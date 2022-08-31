@@ -49,10 +49,10 @@ These are the instructions to run in a terminal to create the workspace, clone t
          └── p_n_p2.cpp
 ```
 
-## Scripts 
+## Description of Scripts 
 * simple_moveit_example
-In this script, you will learn
-1. 
+* p_n_p
+* p_n_p2
 ## Usage
 
 1. To start simulation run:
