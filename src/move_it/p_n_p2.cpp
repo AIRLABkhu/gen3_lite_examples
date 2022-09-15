@@ -127,11 +127,9 @@ move_group.detachObject("object");
 std::vector<moveit_msgs::CollisionObject> addCollisionObjects(moveit::planning_interface::PlanningSceneInterface& planning_scene_interface,
  const std::string & planning_frame)
 {
-  // BEGIN_SUB_TUTORIAL table1
-  //
+ 
   // Creating Environment
-  // ^^^^^^^^^^^^^^^^^^^^
-  // Create vector to hold 3 collision objects.
+
   std::vector<moveit_msgs::CollisionObject> collision_objects;
   collision_objects.resize(3);
 
@@ -156,7 +154,6 @@ std::vector<moveit_msgs::CollisionObject> addCollisionObjects(moveit::planning_i
 
   collision_objects[0].operation = collision_objects[0].ADD;
 
-  // BEGIN_SUB_TUTORIAL table2
   // Add the second table where we will be placing the cube.
   collision_objects[1].id = "table2";
   collision_objects[1].header.frame_id = planning_frame;
@@ -178,7 +175,6 @@ std::vector<moveit_msgs::CollisionObject> addCollisionObjects(moveit::planning_i
 
   collision_objects[1].operation = collision_objects[1].ADD;
 
-  // BEGIN_SUB_TUTORIAL object
   // Define the object that we will be manipulating
   collision_objects[2].header.frame_id = planning_frame;
   collision_objects[2].id = "object";
@@ -196,7 +192,6 @@ std::vector<moveit_msgs::CollisionObject> addCollisionObjects(moveit::planning_i
   collision_objects[2].primitive_poses[0].position.x = 0.05;
   collision_objects[2].primitive_poses[0].position.y = 0.35;
   collision_objects[2].primitive_poses[0].position.z = 0.3;
-  // END_SUB_TUTORIAL
 
   collision_objects[2].operation = collision_objects[2].ADD;
 
