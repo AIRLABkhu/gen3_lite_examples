@@ -204,8 +204,7 @@ controll_gripper(gripper,0.9);
 void addCollisionObjects(moveit::planning_interface::PlanningSceneInterface& planning_scene_interface,
  const std::string & planning_frame)
 {
-  // BEGIN_SUB_TUTORIAL table1
-  //
+  
   // Creating Environment
   // ^^^^^^^^^^^^^^^^^^^^
   // Create vector to hold 3 collision objects.
@@ -233,7 +232,6 @@ void addCollisionObjects(moveit::planning_interface::PlanningSceneInterface& pla
 
   collision_objects[0].operation = collision_objects[0].ADD;
 
-  // BEGIN_SUB_TUTORIAL table2
   // Add the second table where we will be placing the cube.
   collision_objects[1].id = "cube_0";
   collision_objects[1].header.frame_id = planning_frame;
@@ -251,11 +249,9 @@ void addCollisionObjects(moveit::planning_interface::PlanningSceneInterface& pla
   collision_objects[1].primitive_poses[0].position.x = 0.35;
   collision_objects[1].primitive_poses[0].position.y = 0.0;
   collision_objects[1].primitive_poses[0].position.z = 0.13;
-  // END_SUB_TUTORIAL
 
   collision_objects[1].operation = collision_objects[1].ADD;
 
-  // BEGIN_SUB_TUTORIAL object
   // Define the object that we will be manipulating
   collision_objects[2].header.frame_id = planning_frame;
   collision_objects[2].id = "cube_1";
@@ -273,7 +269,6 @@ void addCollisionObjects(moveit::planning_interface::PlanningSceneInterface& pla
   collision_objects[2].primitive_poses[0].position.x = 0.35;
   collision_objects[2].primitive_poses[0].position.y = 0.0;
   collision_objects[2].primitive_poses[0].position.z = 0.18;
-  // END_SUB_TUTORIAL
 
   collision_objects[2].operation = collision_objects[2].ADD;
 
