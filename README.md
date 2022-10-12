@@ -30,12 +30,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 ### make gen3_lite_examples scripts executable
         cd catkin_workspace/src/gen3_lite_examples/src/move_it
-        chmod +x p_n_p2.cpp
-        chmod +x p_n_p2.py
-        chmod +x p_n_p.cpp
-        chmod +x p_n_p.py
-        chmod +x simple_moveit_example.cpp
-        chmod +x simple_moveit_example.py
+
 
 ## Structure of package of gen3_lite_examples
 ```sh
@@ -45,19 +40,9 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ├── launch
 │   ├── gen3_lite_gazebo.launch
 │   └── moveit_example.launch
-│   └── moveit_example_cpp.launch
-│   └── p_n_p.launch
-│   └── p_n_p_cpp.launch
-│   └── p_n_p2.launch
-│   └── p_n_p2_cpp.launch
 └── scripts
      └── move_it
          └── simple_moveit_example.py
-         └── simple_moveit_example.cpp
-         └── p_n_p.py
-         └── p_n_p.cpp
-         └── p_n_p2.py
-         └── p_n_p2.cpp
 ```
 
 ## Troubleshooting
@@ -67,43 +52,15 @@ These are the instructions to run in a terminal to create the workspace, clone t
 * Click Display Option
 * Click and turn-off Accelerate 3D graphics
 
-
-
-## Description of Scripts 
-### simple_moveit_example
-1. Planning to a Pose goal
-2. Planning by controlling joint state
-3. Draw Circle
-4. Draw Rectangle
-5. Draw A 
-### p_n_p (Tower Building)
-
-![image](https://user-images.githubusercontent.com/75155964/187598078-cb3abf46-45d4-4b64-b363-5288d1da22c5.png)
-
-### p_n_p2 (Moving the bar)
-
-![image](https://user-images.githubusercontent.com/75155964/187598223-d2fe9947-7697-481f-83ad-6a14d32b1208.png)
-
-
 ## Usage
 
 1. To start simulation run:
 ```sh
 roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```
-then you will see rviz as below. 
-Click File > Open Config
-![20220831_123301](https://user-images.githubusercontent.com/75155964/187586935-f7c4f8ce-1ad4-45dc-be82-0c5d9887967d.png)
 
 
-Click moveit.rviz in move_it_config (move to catkin_workspace > src > gen3_lite_examples > gen3_lite_move_it_config > launch)
-![20220831_123341](https://user-images.githubusercontent.com/75155964/187586943-54bc83af-0b2a-4844-bd66-ccb62c9876bd.png)
-
-Click "Close without Saving" then finally you will see the image as below.
-![20220831_123943](https://user-images.githubusercontent.com/75155964/187587566-1d1892cf-9a00-42cb-be2b-e6910665e61e.png)
-
-
-2. To start Simple Moving control run:
+2. To start :
 ```sh
 roslaunch gen3_lite_examples moveit_example_cpp.launch
 ```
@@ -112,21 +69,3 @@ or
 roslaunch gen3_lite_examples moveit_example.launch
 ```
 
-
-3. To start pick and place(tower building) control run:
-```sh
-roslaunch gen3_lite_examples p_n_p_cpp.launch
-```
-or
-```sh
-roslaunch gen3_lite_examples p_n_p.launch
-```
-
-4. To start pick and place(moving the bar) control run:
-```sh
-roslaunch gen3_lite_examples p_n_p2_cpp.launch
-```
-or
-```sh
-roslaunch gen3_lite_examples p_n_p2.launch
-```
