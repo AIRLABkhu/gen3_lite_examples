@@ -41,8 +41,8 @@ These are the instructions to run in a terminal to create the workspace, clone t
 ├── package.xml
 ├── ros_kortex_setup.sh
 ├── launch
-│   ├── gen3_lite_gazebo.launch
-│   └── moveit_example.launch
+│   ├── gen3_khu_gazebo.launch
+│   └── gen3_khu_moveit.launch
 └── scripts
      └── move_it
          └── khu_moveit_sample.cpp
