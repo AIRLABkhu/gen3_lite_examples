@@ -19,34 +19,18 @@ include_directories(include ${PROJECT_SOURCE_DIR}/../kortex_api/include/client_s
 include_directories(include ${PROJECT_SOURCE_DIR}/../kortex_api/include/messages)
 include_directories(include ${PROJECT_SOURCE_DIR}/../kortex_api/include/common)
 
-add_executable(simple_moveit_example_cpp src/move_it/simple_moveit_example.cpp)
-add_dependencies(simple_moveit_example_cpp ${catkin_EXPORTED_TARGETS})
-target_link_libraries(simple_moveit_example_cpp ${catkin_LIBRARIES} )
+add_executable(khu_moveit_sample src/move_it/khu_moveit_sample.cpp)
+add_dependencies(khu_moveit_sample ${catkin_EXPORTED_TARGETS})
+target_link_libraries(khu_moveit_sample ${catkin_LIBRARIES} )
 
-add_executable(p_n_p_cpp src/move_it/p_n_p.cpp)
-add_dependencies(p_n_p_cpp ${catkin_EXPORTED_TARGETS})
-target_link_libraries(p_n_p_cpp ${catkin_LIBRARIES} )
-
-add_executable(p_n_p2_cpp src/move_it/p_n_p2.cpp)
-add_dependencies(p_n_p2_cpp ${catkin_EXPORTED_TARGETS})
-target_link_libraries(p_n_p2_cpp ${catkin_LIBRARIES} )
 
 
 # Install
 
-## Mark executable scripts (Python etc.) for installation
-## in contrast to setup.py, you can choose the destination
-catkin_install_python(PROGRAMS 
-			       src/move_it/p_n_p.py
-			       src/move_it/p_n_p2.py
-			       src/move_it/simple_moveit_example.py
-                      DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 ## Mark executables and/or libraries for installation
 install(TARGETS 
-    simple_moveit_example_cpp
-    p_n_p_cpp
-    p_n_p2_cpp
+    khu_moveit_sample
     ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
     LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
     RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
