@@ -64,8 +64,5 @@ roslaunch gen3_lite_examples gen3_lite_gazebo.launch
 ```sh
 roslaunch gen3_lite_examples moveit_example_cpp.launch
 ```
-or
-```sh
-roslaunch gen3_lite_examples moveit_example.launch
-```
+
 
