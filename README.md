@@ -59,14 +59,14 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 1. To launch gazebo:
 ```sh
-roslaunch gen3_lite_examples gen3_lite_gazebo.launch
+roslaunch gen3_lite_examples gen3_khu_gazebo.launch
 ```
 
 Note that: If you make your own script, then your should add your script in CMakeLists.txt and when you modify code, you should catkin_make build again.
 
 2. To launch script :
 ```sh
-roslaunch gen3_lite_examples moveit_example_cpp.launch
+roslaunch gen3_lite_examples gen3_khu_moveit.launch
 ```
 
 
