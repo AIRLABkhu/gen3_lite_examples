@@ -31,6 +31,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
 
 ### make gen3_lite_examples scripts executable
         cd catkin_workspace/src/gen3_lite_examples/src/move_it
+        chmod +x khu_moveit_sample.cpp
 
 
 ## Structure of package of gen3_lite_examples
@@ -38,12 +39,13 @@ These are the instructions to run in a terminal to create the workspace, clone t
 .
 ├── CMakeLists.txt
 ├── package.xml
+├── ros_kortex_setup.sh
 ├── launch
 │   ├── gen3_lite_gazebo.launch
 │   └── moveit_example.launch
 └── scripts
      └── move_it
-         └── simple_moveit_example.py
+         └── khu_moveit_sample.cpp
 ```
 
 ## Troubleshooting
