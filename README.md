@@ -19,7 +19,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
         conan config set general.revisions_enabled=1
         conan profile new default --detect > /dev/null
         conan profile update settings.compiler.libcxx=libstdc++11 default
-        mkdir -p catkin_workspace/src
+        mkdir -p catkin_ws/src
         cd catkin_ws/src
         git clone -b melodic-devel https://github.com/Kinovarobotics/ros_kortex.git 
         git clone https://github.com/AIRLABkhu/gen3_lite_examples.git
